@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Hello, World!"
+    return "Connected!"
 
 @app.route("/sms", methods=['POST'])
 def sms_reply():
